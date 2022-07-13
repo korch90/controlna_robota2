@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My site</title>
+
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="wrapperCreateOl">
+            <h3>Create Ol</h3>
+            <h4>Count li item:</h4>
+            <input type="text" id="OlLiItem" placeholder="Type here..">
+            <h4>Type mark of lst:</h4>
+
+            <select id="OlTipe">
+                <option value=""></option>
+                <option value="georgian">georgian</option>
+                <option value="armenian">armenian</option>
+                <option value="circle">circle</option>
+                <option value="disc">disc</option>
+            </select>
+
+            <p id="CreateOlp">invalid value</p>
+            <div class="wrapperCreateOlBtn">
+                <button id="btnOlReset" class="btnReset">Reset</button>
+                <button id="btnOlCreate" class="btncreate">Create</button>
+            </div>
+        </div>
+
+        <div id="wrapperCreateUl">
+            <h3>Create Ul</h3>
+            <h4>Count li item:</h4>
+            <input type="text" id="UlLiItem" placeholder="Type here..">
+            <h4>Type mark of lst:</h4>
+
+            <select id="UlTipe">
+                <option value=""></option>
+                <option value="georgian">georgian</option>
+                <option value="armenian">armenian</option>
+                <option value="circle">circle</option>
+                <option value="disc">disc</option>
+            </select>
+
+            <p id="CreateUlp">invalid value</p>
+            <div class="wrapperCreateUlBtn">
+                <button id="btnUlReset" class="btnReset">Reset</button>
+                <button id="btnUlCreate" class="btncreate">Create</button>
+            </div>
+        </div>
+
+        <div id="wrapperCreateTable">
+            <div class="wrapperCreateTableLeft">
+                <h3>Count TR:</h3>
+                <input type="text" value="" id="countTR" placeholder="Type here...">
+                <h3>Width of TD:</h3>
+                <input type="text" value="" id="widthTD" placeholder="Type here...">
+                <h3>Width of border:</h3>
+                <input type="text" value="" id="widthBorderTD" placeholder="Type here...">
+                <p id="invalid">invalid value</p>
+                <button id="btnResetTable" class="btnReset">Reset</button>
+            </div>
+            <div class="wrapperCreateTableRight">
+                <h3>Count TD:</h3>
+                <input type="text" value="" id="countTD" placeholder="Type here...">
+
+                <h3>height of TD:</h3>
+                <input type="text" value="" id="heightTD" placeholder="Type here...">
+                <div style="display:flex; flex-direction:row">
+
+
+                    <div>
+                        <h3>Style of border:</h3>
+                        <select name="" id="selectTableStyle">
+                            <option value=""></option>
+                            <option value="dashed">dashed</option>
+                            <option value="dotted">dotted</option>
+                        </select>
+                    </div>
+                    <div>
+                        <h3>Color of border:</h3>
+                        <select name="" id="selectTableColor">
+
+                            <option value=""></option>
+                            <option value="dashed">red</option>
+                            <option value="dotted">blue</option>
+                        </select>
+                    </div>
+                </div>
+                <button id="btnCreateTable" class="btncreate">Create</button>
+            </div>
+        </div>
+
+        <div id="wraperFirstSection">
+            <div id="save">S</div>
+            <div id="craateTable">T</div>
+            <div id="createOl">O</div>
+            <div id="createUl">U</div>
+        </div>
+
+        <div id="colorForm">
+            <h3>Chose text color</h3>
+            <div id="colorFormX">X</div>
+            <div id="colorFormElements">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+
+            </div>
+        </div>
+        <div id="bgcolorForm">
+            <h3>Chose image or color for background</h3>
+            <div id="choseForm">
+                <div id="choseColor" class="choseForm">Color</div>
+                <div id="choseImage" class="choseForm">Image</div>
+                <div id="choseFile" class="choseForm">Files</div>
+            </div>
+
+            <div id="bgcolorFormX">X</div>
+            <div id="wrapperForBgElrm1" class="wrapperForBG">
+                <div id="bgColorFormElements">
+
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+
+                </div>
+            </div>
+            <div id="wrapperForBgElrm2" class="wrapperForBG">
+                <div id="fbgcolorFormElements">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+
+
+                </div>
+            </div>
+            <div id="wrapperForBgElrm3" class="wrapperForBG">
+
+                <div id="ffbgcolorFormElements"> <input type="file" id="inputFile"> </div>
+            </div>
+        </div>
+        <div id="loginForm">
+            <h1>Sign In</h1>
+            <input type="text" name="" id="formLogin" placeholder="login">
+            <input type="password" name="" id="formPassword" placeholder="password">
+            <div id="pleaseCheck"> </div>
+            <button id="btnAutorization">Sign in</button>
+        </div>
+
+    </div>
+
+
+    <div class="header">
+        <div id="firstTools">
+            <div id="editText"> {} </div>
+            <div class="styleText">
+                <div id="boldText">B</div>
+                <div id="italicText">I</div>
+                <div id="underLineText">U</div>
+                <div id="lineThroughText">S</div>
+            </div>
+            <div id="positionText">
+                <div id="positionTextLeft">L</div>
+                <div id="positionTextCenter">C</div>
+                <div id="positionTextRight">R</div>
+
+            </div>
+            <div id="styleText">
+                <select name="" id="fontFamilyText" style="width:30px ;">
+                    <option disabled selected>A </option>
+                    <option value="Verdana">Verdana</option>
+                    <option value="Impact">Impact</option>
+                    <option value="Gill Sans">Gill Sans</option>
+                    <option value="Lucida Sans">Lucida Sans</option>
+                    <option value="Georgia">Georgia"</option>
+
+                </select>
+                <select id="fontSizeText" style="width:30px">
+                    <option disabled selected>S </option>
+                    <option value="12px">12px</option>
+                    <option value="14px">14px</option>
+                    <option value="16px">16px</option>
+                    <option value="18px ">18px</option>
+                    <option value="20px">20px"</option>
+
+                </select>
+                <div id="colorText">C
+
+                </div>
+                <div id="bGCText">BG</div>
+            </div>
+            <div id="login">Log</div>
+        </div>
+
+    </div>
+    <div class="mainTextWrapper">
+        <div class="mainText" id="mainText">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis modi quos, repellat </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis modi quos, repellat </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis modi quos, repellat </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis modi quos, repellat </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis modi quos, repellat </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis modi quos, repellat </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis modi quos, repellat </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis modi quos, repellat </p>
+
+        </div>
+        <textarea wrap="soft" id="mainTextEdit"></textarea>
+    </div>
+
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
